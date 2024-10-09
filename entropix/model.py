@@ -8,6 +8,7 @@ from functools import partial
 from entropix.config import ModelParams
 from entropix.kvcache import KVCache
 from entropix.stats import AttnStats
+from entropix.utils import stable_softmax
 from entropix.weights import XfmrWeights, LayerWeights
 
 
